@@ -1,0 +1,197 @@
+/* PAGE */
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  padding-top: 50px;
+  background: #0C1A2B;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  margin: 100px auto 50px auto;
+  font-weight: bold;
+}
+
+h1.header {
+  margin: 100px auto 15px auto;
+  font-size: 60px;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+h2.header {
+  margin: 15px auto 30px auto;
+}
+
+p, ol {
+  text-align: left;
+}
+
+ol {
+  margin: 30px auto;
+  padding-left: 15px;
+}
+
+pre {
+  margin-top: 15px;
+  text-align: left;
+  color: #fff;
+  background: #243E5E;
+}
+
+.container-narrow {
+  max-width: 720px;
+}
+
+.btn-outline-white {
+  background: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-outline-white:active,
+.btn-outline-white:focus,
+.btn-outline-white:hover {
+  background: transparent;
+  border-color: #fff;
+  color: #fff;
+  opacity: .8;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+  background: #0C1A2B;
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+}
+
+.navbar .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar .navbar-nav > li > a:hover {
+  color: #fff;
+  opacity: .8;
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.navbar .navbar-brand:hover {
+  opacity: .8;
+}
+
+
+/* BOXES */
+
+.box-container:not(:first-of-type) {
+  margin: 100px auto 0 auto;
+}
+
+.list-buttons {
+  display: block;
+  position: relative;
+  left: 50%;
+  margin: 30px 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.list-buttons li {
+  display: inline-block;
+  position: relative;
+  left: -50%;
+}
+
+.list-buttons li:first-child {
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 500px) {
+  .list-buttons {
+    display: block;
+    position: static;
+    left: auto;
+    margin: 30px 0;
+  }
+
+  .list-buttons li {
+    display: block;
+    position: static;
+    left: auto;
+    margin-bottom: 15px;
+  }
+
+  .list-buttons li:first-child {
+    margin-right: 0;
+  }
+}
+
+
+/* INSTALLATION */
+
+ol li:not(:first-child) {
+  margin-top: 30px;
+}
+
+
+/* FAQ */
+
+.list-faqs {
+  margin: 30px auto;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+}
+
+.list-faqs li:nth-child(odd) {
+  margin: 30px 0 15px 0;
+  font-weight: bold;
+}
+
+
+
+/* FOOTER */
+
+footer {
+  height: 50px;
+  margin: 50px auto;
+}
+
+footer .logo {
+  display: block;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  margin: 0 auto;
+  background: url(../img/jq-logo-white.svg) center no-repeat;
+  background-size: contain;
+}
+
+footer .logo:after {
+  content: "CREATED";
+  position: absolute;
+  top: 0;
+  left: 60px;
+  height: 50px;
+  width: 100px;
+  line-height: 50px;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+}

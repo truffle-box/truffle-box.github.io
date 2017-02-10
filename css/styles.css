@@ -55,6 +55,7 @@ a {
 }
 
 a:hover {
+  color: #fff;
   opacity: .8;
 }
 
@@ -88,6 +89,7 @@ a:hover {
 
 .navbar .navbar-nav > li > a {
   color: #fff;
+  text-decoration: none;
 }
 
 .navbar .navbar-nav > li > a:hover {

@@ -67,6 +67,7 @@ a:hover {
   background: transparent;
   border-color: #fff;
   color: #fff;
+  text-decoration: none;
 }
 
 .btn-outline-white:active,

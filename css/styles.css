@@ -190,17 +190,17 @@ footer .logo {
   display: block;
   position: relative;
   height: 50px;
-  width: 50px;
+  width: 100px;
   margin: 0 auto;
-  background: url(../img/jq-logo-white.svg) center no-repeat;
+  background: url(../img/truffle-wordmark.svg) center no-repeat;
   background-size: contain;
 }
 
 footer .logo:after {
-  content: "CREATED";
+  content: "POWERED";
   position: absolute;
   top: 0;
-  left: 60px;
+  left: 115px;
   height: 50px;
   width: 100px;
   line-height: 50px;

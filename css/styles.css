@@ -79,6 +79,20 @@ a:hover {
   opacity: .8;
 }
 
+.alert-info {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.alert-info a {
+  color: #31708f;
+}
+
+.alert-info a:hover {
+  color: #31708f;
+  opacity: .8;
+}
+
 
 /* NAVBAR */
 
